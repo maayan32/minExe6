@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "minexe6",
   "version": "1.0.0",
   "description": "targilon number 6 in advanced programing",
@@ -9,4 +10,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
+  
 }
