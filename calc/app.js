@@ -4,11 +4,11 @@ app.use(express.static('public'))
 const bodyParser = require('body-parser')
 app.use(bodyParser.urlencoded({extended : true}))
 
-app.get('/login', function(req,res){
-var user = req.query.username;
-var password = req.query.password;
+app.post('/login', function(req,res){
+var user = req.body.username;
+var password = req.body.password;
 if((user == 'guest') && (password == 'pass')){
-    res.end('welcome')
+    res.end('welcome!')
 }
 else{
     res.end('incorrect username and/or password')
