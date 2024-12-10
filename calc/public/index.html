@@ -4,16 +4,10 @@
 <link href="index.css" rel="stylesheet">
 </head>
 <body>
-<form action="/calc" method="post">
-<input name="x" value="0">
-<select name="operation" value="0">
-<option value="0">plus</option>
-<option value="1">minus</option>
-<option value="2">times</option>
-<option value="3">divide</option>
-</select>
-<input name="y" value="0">
-<input type="submit" value="Calculate">
+<form method="get" action="/login">
+<input name="username">
+<input name="password" type="password">
+<input type="submit" value="login">
 </form>
 <div id="formula"></div>
 <script src="index.js"></script>
