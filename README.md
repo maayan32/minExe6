@@ -1,4 +1,4 @@
 # minExe6
 targilon number 6 in advanced programing
 
-ling to repository: https://github.com/maayan32/minExe6
+link to repository: https://github.com/maayan32/minExe6
